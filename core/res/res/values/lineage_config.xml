@@ -47,4 +47,7 @@
     <!-- The list of components which should be forced to be enabled. -->
     <string-array name="config_forceEnabledComponents" translatable="false">
     </string-array>
+
+    <!-- Smart charging battery percentage -->
+    <integer name="config_smartChargingBatteryLevel">80</integer>
 </resources>

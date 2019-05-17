@@ -43,6 +43,10 @@
     <java-symbol type="array" name="config_globallyDisabledComponents" />
     <java-symbol type="array" name="config_forceEnabledComponents" />
 
-    <!-- Smart charging battery percentage -->
-    <java-symbol type="integer" name="config_smartChargingBatteryLevel" />
+  <!-- Smart charging -->
+  <java-symbol type="integer" name="config_smartChargingBatteryLevel" />
+  <java-symbol type="integer" name="config_smartChargingBatteryResumeLevel" />
+  <java-symbol type="string" name="config_smartChargingSysfsNode" />
+  <java-symbol type="string" name="config_smartChargingSuspendValue" />
+  <java-symbol type="string" name="config_smartChargingResumeValue" />
 </resources>

@@ -92,6 +92,7 @@ import com.android.server.clipboard.ClipboardService;
 import com.android.server.connectivity.IpConnectivityMetrics;
 import com.android.server.contentcapture.ContentCaptureManagerInternal;
 import com.android.server.coverage.CoverageService;
+import com.android.server.custom.AttestationService;
 import com.android.server.devicepolicy.DevicePolicyManagerService;
 import com.android.server.display.DisplayManagerService;
 import com.android.server.display.color.ColorDisplayService;
@@ -1846,7 +1847,32 @@ public final class SystemServer {
 
             traceBeginAndSlog("StartCrossProfileAppsService");
             mSystemServiceManager.startService(CrossProfileAppsService.class);
+<<<<<<< HEAD
             traceEnd();
+=======
+            t.traceEnd();
+
+            t.traceBegin("StartPeopleService");
+            mSystemServiceManager.startService(PeopleService.class);
+            t.traceEnd();
+
+            t.traceBegin("StartMediaMetricsManager");
+            mSystemServiceManager.startService(MediaMetricsManagerService.class);
+            t.traceEnd();
+
+            if (!com.android.server.flags.Flags.optionalBackgroundInstallControl()
+                    || SystemProperties.getBoolean(
+                            "ro.system_settings.service.backgound_install_control_enabled", true)) {
+                t.traceBegin("StartBackgroundInstallControlService");
+                mSystemServiceManager.startService(BackgroundInstallControlService.class);
+                t.traceEnd();
+            }
+
+            // AttestationService
+            t.traceBegin("AttestationService");
+            mSystemServiceManager.startService(AttestationService.class);
+            t.traceEnd();
+>>>>>>> 4447bc0c5f35 (PixelPropsUtils: Dynamically spoof props for GMS)
         }
 
         if (!isWatch) {

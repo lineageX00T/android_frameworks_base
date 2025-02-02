@@ -145,8 +145,8 @@ public final class PixelPropsUtils {
         propsToChangePixel9Pro.put("PRODUCT", "caiman");
         propsToChangePixel9Pro.put("HARDWARE", "caiman");
         propsToChangePixel9Pro.put("MODEL", "Pixel 9 Pro");
-        propsToChangePixel9Pro.put("ID", "AP3A.241105.008");
-        propsToChangePixel9Pro.put("FINGERPRINT", "google/caiman/caiman:15/AP3A.241105.008/12485168:user/release-keys");
+        propsToChangePixel9Pro.put("ID", "AP4A.250105.002");
+        propsToChangePixel9Pro.put("FINGERPRINT", "google/caiman/caiman:15/AP4A.250105.002/12701944:user/release-keys");
         propsToChangePixel5a = new HashMap<>();
         propsToChangePixel5a.put("BRAND", "google");
         propsToChangePixel5a.put("MANUFACTURER", "Google");
@@ -256,16 +256,16 @@ public final class PixelPropsUtils {
         // Alter build parameters to pixel for avoiding hardware attestation enforcement
         setPropValue("MANUFACTURER", "Google");
         setPropValue("MODEL", "Pixel 7a");
-        setPropValue("FINGERPRINT", "google/lynx_beta/lynx:15/BP11.241121.010/12780007:user/release-keys");
+        setPropValue("FINGERPRINT", "google/lynx_beta/lynx:15/BP11.241210.004/12926906:user/release-keys");
         setPropValue("BRAND", "google");
-        setPropValue("PRODUCT", "lynx_beta");
         setPropValue("DEVICE", "lynx");
+        setPropValue("PRODUCT", "lynx_beta");
         setPropValue("VERSION.RELEASE", "15");
-        setPropValue("ID", "BP11.241121.010");
         setPropValue("VERSION.INCREMENTAL", "12780007");
+        setPropValue("ID", "BP11.241210.004");
         setPropValue("TYPE", "user");
         setPropValue("TAGS", "release-keys");
-        setPropValue("VERSION.SECURITY_PATCH", "2024-12-05");
+        setPropValue("VERSION.SECURITY_PATCH", "2025-01-05");
         setPropValue("VERSION.DEVICE_INITIAL_SDK_INT", "21");
 }
     private static boolean isCallerSafetyNet() {

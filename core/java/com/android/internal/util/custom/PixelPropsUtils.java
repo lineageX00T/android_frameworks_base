@@ -256,16 +256,16 @@ public final class PixelPropsUtils {
         // Alter build parameters to pixel for avoiding hardware attestation enforcement
         setPropValue("MANUFACTURER", "Google");
         setPropValue("MODEL", "Pixel 9");
-        setPropValue("FINGERPRINT", "google/tokay_beta/tokay:Baklava/BP22.250124.010/13116449:user/release-keys");
+        setPropValue("FINGERPRINT", "google/tokay_beta/tokay:16/BP22.250221.013/13218340:user/release-keys");
         setPropValue("BRAND", "google");
         setPropValue("PRODUCT", "tokay_beta");
         setPropValue("DEVICE", "tokay");
-        setPropValue("VERSION.RELEASE", "Baklava");
-        setPropValue("VERSION.INCREMENTAL", "13116449");
-        setPropValue("ID", "BP22.250124.010");
+        setPropValue("VERSION.RELEASE", "16");
+        setPropValue("VERSION.INCREMENTAL", "13218340");
+        setPropValue("ID", "BP22.250221.013");
         setPropValue("TYPE", "user");
         setPropValue("TAGS", "release-keys");
-        setPropValue("VERSION.SECURITY_PATCH", "2025-02-05");
+        setPropValue("VERSION.SECURITY_PATCH", "2025-03-05");
         setPropValue("VERSION.DEVICE_INITIAL_SDK_INT", "21");
 }
     private static boolean isCallerSafetyNet() {

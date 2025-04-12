@@ -145,8 +145,8 @@ public final class PixelPropsUtils {
         propsToChangePixel9Pro.put("PRODUCT", "caiman");
         propsToChangePixel9Pro.put("HARDWARE", "caiman");
         propsToChangePixel9Pro.put("MODEL", "Pixel 9 Pro");
-        propsToChangePixel9Pro.put("ID", "BP1A.250305.020");
-        propsToChangePixel9Pro.put("FINGERPRINT", "google/caiman/caiman:15/BP1A.250305.020/13009785:user/release-keys");
+        propsToChangePixel9Pro.put("ID", "BP1A.250405.007");
+        propsToChangePixel9Pro.put("FINGERPRINT", "google/caiman/caiman:15/BP1A.250405.007/13240079:user/release-keys");
         propsToChangePixel5a = new HashMap<>();
         propsToChangePixel5a.put("BRAND", "google");
         propsToChangePixel5a.put("MANUFACTURER", "Google");
@@ -256,13 +256,13 @@ public final class PixelPropsUtils {
         // Alter build parameters to pixel for avoiding hardware attestation enforcement
         setPropValue("MANUFACTURER", "Google");
         setPropValue("MODEL", "Pixel 9");
-        setPropValue("FINGERPRINT", "google/tokay_beta/tokay:16/BP22.250221.013/13218340:user/release-keys");
+        setPropValue("FINGERPRINT", "google/tokay_beta/tokay:16/BP22.250221.015/13278879:user/release-keys");
         setPropValue("BRAND", "google");
         setPropValue("PRODUCT", "tokay_beta");
         setPropValue("DEVICE", "tokay");
         setPropValue("VERSION.RELEASE", "16");
-        setPropValue("VERSION.INCREMENTAL", "13218340");
-        setPropValue("ID", "BP22.250221.013");
+        setPropValue("VERSION.INCREMENTAL", "13278879");
+        setPropValue("ID", "BP22.250221.015");
         setPropValue("TYPE", "user");
         setPropValue("TAGS", "release-keys");
         setPropValue("VERSION.SECURITY_PATCH", "2025-03-05");

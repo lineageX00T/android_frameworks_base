@@ -456,7 +456,6 @@ public class MediaSessionRecord implements IBinder.DeathRecipient {
                 return;
             }
             mDestroyed = true;
-            mPlaybackState = null;
             mHandler.post(MessageHandler.MSG_DESTROYED);
         }
     }

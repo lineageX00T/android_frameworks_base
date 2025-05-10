@@ -145,8 +145,8 @@ public final class PixelPropsUtils {
         propsToChangePixel9Pro.put("PRODUCT", "caiman");
         propsToChangePixel9Pro.put("HARDWARE", "caiman");
         propsToChangePixel9Pro.put("MODEL", "Pixel 9 Pro");
-        propsToChangePixel9Pro.put("ID", "BP1A.250405.007");
-        propsToChangePixel9Pro.put("FINGERPRINT", "google/caiman/caiman:15/BP1A.250405.007/13240079:user/release-keys");
+        propsToChangePixel9Pro.put("ID", "BP1A.250505.005");
+        propsToChangePixel9Pro.put("FINGERPRINT", "google/caiman/caiman:15/BP1A.250505.005/13277524:user/release-keys");
         propsToChangePixel5a = new HashMap<>();
         propsToChangePixel5a.put("BRAND", "google");
         propsToChangePixel5a.put("MANUFACTURER", "Google");
